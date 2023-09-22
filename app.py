@@ -11,7 +11,6 @@ def corregir_texto(texto):
         engine="text-davinci-003",
         prompt=texto,
         max_tokens=100,
-        temperature=0.7,
         n=1,
         stop=None,
         temperature=0.7
